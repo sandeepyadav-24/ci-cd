@@ -11,6 +11,7 @@ app.use(express.json());
 
 app.use("/admin", adminRouter)
 app.use("/user", userRouter)
+app.post("/",(req,res)=>{ res.json({mes:"Hello World"})})
 
 
 // Connect to MongoDB
