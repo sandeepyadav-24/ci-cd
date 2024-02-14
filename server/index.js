@@ -18,4 +18,4 @@ app.get("/",(req,res)=> res.json({mes:"Hello World Bro nigga"}));
 
 //mongoose.connect('mongodb://localhost:27017/courses', { useNewUrlParser: true, useUnifiedTopology: true, dbName: "courses" });
 
-app.listen(80, () => console.log('Server running on port 3000'));
+app.listen(3000, () => console.log('Server running on port 3000'));
